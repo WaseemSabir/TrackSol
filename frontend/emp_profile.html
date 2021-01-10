@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="text-align: center;"> Employee Profile </h1>
+<form action="http://127.0.0.1:5000/emp/profile/{}" method="post">
+<label for="User">User ID:</label><br>
+<input type="text" value={} id="User" name="User" readonly><br>
+
+<label for="fname">First Name:</label><br>
+<input type="text" value={} id="fname" name="fname"><br>
+
+<label for="lname">Last Name:</label><br>
+<input type="text" value={} id="lname" name="lname"><br>
+
+<label for="Pass">Password :</label><br>
+<input type="Password" value={} id="Pass" name="Pass"><br><br>
+
+<label for="gender">Gender :</label><br>
+<input type="text" value={} id="gender" name="gender"><br>
+
+<label for="age">Age :</label><br>
+<input type="text" value={} id="age" name="age"><br>
+
+<label for="email">Email :</label><br>
+<input type="text" value={} id="email" name="email"><br>
+
+<label for="address">Address :</label><br>
+<input type="text" value={} id="address" name="address"><br><br>
+<p> *User ID can't be changed </p>
+<input type="submit" value="Update">
+</form>
+</body>
+</html>

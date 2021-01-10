@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {{background-image: url("https://i.ibb.co/kXQWvbq/drew-beamer-k-UHf-MW8awp-E-unsplash.jpg");background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%; }}
+input[type=text] {{
+  width: 30%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}}
+
+input[type=text]:focus {{
+  width: 100%;
+}}
+
+table {{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}}
+
+td, th {{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}}
+
+tr:nth-child(even) {{
+  background-color: #dddddd;
+}}
+</style>
+<body>
+<h1 style="text-align: center;"> Check Users Boarded  </h1>
+<form action="http://127.0.0.1:5000/trip_users" method="post">
+  <input type="text" id="tid" name="tid" placeholder="trip id..">
+  <input type="submit" value="submit">
+</form>
+<br>
+<p style="text-align: center;font-size: 30px;"> {} </p>
+<br>
+<table>
+  {}
+</table>
+</body>
+</html>

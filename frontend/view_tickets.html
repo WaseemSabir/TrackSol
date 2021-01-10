@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {{background-image: url("https://i.ibb.co/kXQWvbq/drew-beamer-k-UHf-MW8awp-E-unsplash.jpg");background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;}}
+table {{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}}
+
+td, th {{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}}
+
+tr:nth-child(even) {{
+  background-color: #dddddd;
+}}
+</style>
+<fieldset>
+	<h1 style="text-align: center;"> Tickets Booked by You </h1>
+	<table>
+		{}
+	</table>
+</fieldset>
+<fieldset>
+	<h3> Delete A reservation </h3>
+	<form action="http://127.0.0.1:5000/tickets/{}" method="post">
+
+	<label for="tid">Ticket ID:</label>
+	<input type="text" id="tid" name="tid"><br>
+	<input type="submit" value="submit">
+	</form>
+	{}
+</fieldset>

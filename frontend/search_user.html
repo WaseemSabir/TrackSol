@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {{background-image: url("https://i.ibb.co/kXQWvbq/drew-beamer-k-UHf-MW8awp-E-unsplash.jpg");background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;}}
+table {{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}}
+
+td, th {{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}}
+
+tr:nth-child(even) {{
+  background-color: #dddddd;
+}}
+</style>
+<body>
+<h1 style="text-align: center;"> Search Users Or Employee </h1>
+<h2 style="text-align: center;"> Admin DashBoard</h2>
+<form action="http://127.0.0.1:5000/search/{}" method="post">
+
+	<label for="search">Enter here :</label>
+	<input type="text" id="search" name="search">
+
+  	<select name="table" id="table">
+	    <option value="user">User</option>
+    	<option value="employee">Employee</option>
+  	</select>
+
+  	<select name="attr" id="attr">
+  		<option value="id">User Id</option>
+    	<option value="fname">First Name</option>
+    	<option value="lname">last Name</option>
+    	<option value="email">Email</option>
+    	<option value="address">address</option>
+  	</select>
+
+  	<input type="submit" value="search">
+
+<br><br><br><br>
+<p style="text-align: center;"> Search Results Here! </p>
+<table>
+  {}
+</table>
+</form>
+</body>
+</html>

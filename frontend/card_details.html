@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {{background-image: url("https://i.ibb.co/kXQWvbq/drew-beamer-k-UHf-MW8awp-E-unsplash.jpg");background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;}}
+</style>
+<h1 style="text-align: center;"> Enter Card Details </h1>
+<fieldset>
+	<h3> Details here </h3>
+	<form action="http://127.0.0.1:5000/balance/{}/card" method="post">
+
+	<label for="cc">Credit Card:</label>
+	<input type="text" id="cc" name="cc"><br><br>
+
+	<label for="ed">Expiry Date:</label>
+	<input type="text" id="ed" name="ed">
+
+	<label for="cvc">CVC:</label>
+	<input type="text" id="cvc" name="cvc"><br><br>
+	<p style="font-size: 15px;"> * cc is of 16 digits </p>
+	<p style="font-size: 15px;"> * expiry in format MM/YY </p>
+	<p style="font-size: 15px;"> * cvc is 3 digit security code </p><br>
+	<input type="submit" value="submit">
+	</form>
+	{}
+</fieldset>

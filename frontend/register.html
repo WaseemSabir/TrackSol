@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<style>
+.bgimg {background-image: url('/w3images/forestbridge.jpg');height: 100%;background-position: center;background-size: cover;position: relative;color: white;font-family: "Courier New", Courier, monospace;font-size: 25px;}
+body {background-image: url('https://i.ibb.co/HzyrVjQ/983279.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;}
+h1,h2   {text-align: center;}
+form {margin: 0;position: absolute;top: 1000%;left: 50%;margin-right: -50%;transform: translate(-50%, -50%);
+}
+</style>
+<body>
+<div class="bgimg">
+<div class='field'>
+<form action="http://127.0.0.1:5000/register" method="post">
+
+	<p >Enter your Information: </p>
+<label for="User">User ID:</label><br>
+<input type="text" id="User" name="User"><br>
+
+<label for="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+
+<label for="lname">Last Name:</label><br>
+<input type="text" id="lname" name="lname"><br>
+
+<label for="Pass">Password :</label><br>
+<input type="Password" id="Pass" name="Pass"><br><br>
+
+<label for="email">Email :</label><br>
+<input type="text" id="email" name="email"><br>
+
+<label for="address">Address :</label><br>
+<input type="text" id="address" name="address"><br>
+<p style="font-size: 10px"> * Only Users can sign up through this page! </p>
+<p style="font-size: 10px"> * User name should be more than 5 characters! </p>
+<p style="font-size: 10px"> * password should be greater than 8 characters! </p>
+
+<input type="submit" value="register">
+<br><br>
+<a href='http://127.0.0.1:5000/' style="font-size: 20px; color: white;"> Go back to login page! </a>
+</form>
+
+</div>
+ <br>
+</div>
+</body>
+</html>

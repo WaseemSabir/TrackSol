@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {{background-image: url("https://i.ibb.co/kXQWvbq/drew-beamer-k-UHf-MW8awp-E-unsplash.jpg");background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;}}
+</style>
+<body>
+	<fieldset>
+		<h3> View jobs assigned to an employee </h3>
+		<form action="http://127.0.0.1:5000/assign/view" method="post">
+
+		<label for="eid">Employee ID:</label>
+		<input type="text" id="eid" name="eid">
+
+		<input type="submit" value="View">
+		</form>
+	<ol>
+	{}
+	</ol>
+	</fieldset>
+	<fieldset>
+		<h3> Assign a job </h3>
+		<form action="http://127.0.0.1:5000/assign/asig" method="post">
+
+		<label for="eid">Employee ID:</label>
+		<input type="text" id="eid" name="eid"><br>
+
+		<label for="job"> Job:</label>
+		<input type="text" id="job" name="job"><br>
+
+		<input type="submit" value="assign">
+		</form>
+	<p>
+	{}
+	</p>
+	</fieldset>
+
+	<fieldset>
+		<h3> Delete an assigned job </h3>
+		<form action="http://127.0.0.1:5000/assign/del" method="post">
+
+		<label for="jid">Job ID:</label>
+		<input type="text" id="jid" name="jid"><br>
+
+		<input type="submit" value="Delete">
+		</form>
+	<p>
+	{}
+	</p>
+	</fieldset>
+</body>
+</html>
