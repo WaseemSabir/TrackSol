@@ -7,18 +7,18 @@ Development Details:
   <ul>
     <li> Python:<li>
     <ul>
-      Flask Web Application
+      <li> Flask Web Application </li>
     </ul>
   </ul>
   <li> Database </li>
     <ul>
-      Sqlite
+      <li> Sqlite </li>
    </ul>
   <li> Front End </li>
     <ul>
       <li> Html </li>
       <li> CSS </li>
       <li> JavaScript </li>
-      </ul>
+      </ul><br>
   <li> Deployed on Heroku </li>
   </ul>
